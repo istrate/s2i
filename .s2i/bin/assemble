@@ -14,9 +14,9 @@ DATE=`date -I`
 
 cp -Rf /tmp/src/*.html ./
 
-echo "Amor vincit omnia" > index.html
+echo "Amor vincit omnia" > ./index.html
 
-echo "${DATE} Astra inclinant, sed non obligant" >> info.html
+echo "${DATE} Astra inclinant, sed non obligant" >> ./info.html
 
 
 
